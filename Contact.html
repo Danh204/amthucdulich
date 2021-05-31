@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>wedside</title>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+     <link 
+     href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+     <link rel="stylesheet" type="text/css" href="styles1.css">
+     <style type="text/css">
+       *{
+     margin:0;
+     padding: 0;
+     font-family: 'Roboto', sans-serif;
+     box-sizing: border-box;
+ }
+ header{
+   background-color: #EE6363;
+   height: 300px;
+   width: 1400px;
+   background-size: cover;
+   background-position: center;
+}
+ul{
+   float: right;
+   list-style-type: none;
+   margin-top: 25px;
+}
+ul li{
+   display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6 ease;
+    border-bottom-left-radius:10px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+
+ul li a:hover{
+   background-color: #fff;
+   color: #000;
+}
+ul li.active a{
+   background-color: #fff;
+   color: #000;
+}
+.logo img{
+   float: left;
+   width: 80px;
+   height: 80px;
+   text-decoration: none;
+    margin-left: 30px;
+   margin-top: -10px;
+}
+.run{
+   position: fixed;
+   background-color: #00C5CD;
+   margin-left:px;
+   height:60px;
+   width: 1305px;
+   margin-top: 25px;
+   border-bottom-left-radius:10px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+.ge{
+   margin-right: 50px;
+  
+}
+.magin{
+   max-width: 1200px;
+   margin: auto;
+}
+.title{
+   position: absolute;
+   top: 140px;
+   margin-left:  640px;
+   transform: translate(-40%,-40%);
+}
+.title h2{
+   color: #fff;
+   font-size: 30px;
+   margin-top: 70px;
+   text-align: center;
+}
+.title h3{
+ text-align: center;
+}
+.df{
+   text-align: center;
+}
+.fg{
+  background-color:#00C5CD;
+  position: fixed;
+  margin-left: 1260px;
+  margin-top: 110px;
+  height: 60px;
+  width: 90px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  
+}
+.kg{
+  margin-left: 10px;
+  margin-top: 12px;
+}
+.container{
+  mar
+}
+section{
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     background: #112d42;
+     width: 100%;
+ }
+section::before{
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width:50%;
+     height: 100%;
+     background: #03a9f4;
+ }
+section .container{
+     position: relative;
+     min-width: 1100px;
+     min-height: 550px;
+     display:flex;
+     z-index: 100;
+
+ }
+ section .container .containerinfo{
+     position: absolute;
+     top: 40px;
+     width: 350px;
+     height: 500px;
+     background: #0f3959;
+     z-index: 1;
+     padding: 40px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     box-shadow: 0 20px 20px rgba(0,0,0,0.2);
+     border-bottom-left-radius:10px;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+ }
+section .container .containerinfo h2{
+     color: #fff;
+     font-size: 24px;
+     margin: 20px 0;
+ }
+ section .container .containerinfo li{
+     position: relative;
+     list-style: none;
+     display: flex;
+     margin: 20px 0;
+     cursor: pointer;
+     align-items: flex-start;
+ }
+section .container .containerinfo li span{
+     color: #fff;
+     margin-left: 10px;
+     font-weight: 300;
+     opacity: 0.5;
+     font-size: 20px;
+ }
+ /*Hi?u ?ng Hover Cho Th? Li*/
+ section .container .containerinfo li:hover span{
+     opacity: 1;
+ }
+ section .container .containerinfo .sci{
+     position: relative;
+     display:flex;
+ }
+section .container .containerinfo .sci li{
+     list-style: none;
+     margin-right: 15px;
+ }
+section .container .containerinfo .sci li a{
+     text-decoration: none;
+     opacity: 0.8;
+     color: blue;
+     font-size: 28px;
+ }
+ /*Hi?u ?ng Hover Icon*/
+ section .container .containerinfo .sci li:hover a{
+     opacity: 0.5;
+ }
+ section .container .containerForm{
+     position: absolute;
+     padding: 70px 50px;
+     background: #fff;
+     margin-left: 150px;
+     padding-left: 250px;
+     width: calc(100% - 150px);
+     height: 600px;
+     box-shadow: 0 50px 50px rgba(0,0,0,0.5);
+     border-bottom-left-radius:10px;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+ }
+section .container .containerForm h2{
+     color: #0f3959;
+     font-size: 24px;
+     font-weight: 500;
+ }
+section .container .containerForm .formBox{
+     position: relative;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     padding-top: 30px;
+ }
+section .container .containerForm .formBox .inputBox{
+     position: relative;
+     margin: 0 0 35px 0;
+ }
+section .container .containerForm .formBox .inputBox.w50{
+     width: 47%;
+ }
+section .container .containerForm .formBox .inputBox.w100{
+     width: 100%;
+
+ }
+  section .container .containerForm .formBox .inputBox textarea{
+     width: 100%;
+     padding: 5px 0;
+     resize: none;
+     font-size: 18px;
+     font-weight: 400;
+     color: #333;
+     border: none;
+     border-bottom: 1px solid #777;
+     outline: none;
+ }
+section .container .containerForm .formBox .inputBox textarea{
+     min-height: 120px;
+ }
+section .container .containerForm .formBox .inputBox input[type="submit"]{
+     position: relative;
+     cursor: pointer;
+     background: #0f3959;
+     color: #fff;
+     border: none;
+     max-width: 150px;
+     padding: 12px;
+ }
+section .container .containerForm .formBox .inputBox input[type="submit"]{
+     position: relative;
+     cursor: pointer;
+     background: #0f3959;
+     color: #fff;
+     border: none;
+     max-width: 150px;
+     padding: 12px;
+      border-bottom-left-radius:10px;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+ }
+section .container .containerForm .formBox .inputBox input[type="submit"]:hover{
+     background: red;
+
+}
+body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     background: rgba(232, 222, 223, .2);
+     min-height: 100vh;
+}  
+header::before{
+     content: '';
+     position: absolute;
+     top:0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     
+     clip-path: circle(30% at right 70%);
+}
+header::after{
+     content: '';
+     position: absolute;
+     top:0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     
+     clip-path: circle(20% at 10% 10%);
+}
+.container1
+{
+     position: relative;
+     z-index: 1;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     margin: 40px 0;
+     
+}
+
+.container1 .card
+{
+     position: relative;
+     width: 300px;
+     height: 400px;
+     background: rgba(115, 198, 217, 1);
+     margin: 20px;
+     box-shadow: 0 15px 35px rgba(0,0,0,0,2);
+     border-radius: 15px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-filter: blur(10px);
+}
+.container1 .card .content
+{
+     position: relative;
+     display:  flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     opacity: 0.5;
+     transition: 0.5s;
+}
+.container1 .card:hover .content
+{
+     opacity: 1;
+     transform: translate(-20px);
+}
+.container1 .card .content .imgBx
+{
+     position: relative;
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     overflow: hidden;
+     border: 10px solid rgba(0,0,0,0,25);
+}
+.container1 .card .content .imgBx img
+{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+.container1 .card .content .contentBx h3
+{
+     color: #fff    ;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     font-weight: 500;
+     font-size: 18 px;
+     text-align: center;
+     margin: 20px 0 10px;
+     line-height: 1.1em;
+     text-transform: initial;
+}
+.container1 .card .sci1
+{
+     position: absolute;
+     bottom: 50px;
+     display: flex;
+}
+.container1 .card .sci1 li
+{
+     list-style: none;
+     margin: 0 10px;
+     transform: translateY(40px);
+     transition: 0.5s;
+     opacity: 0;
+     transition-delay: calc(0.1s * var(--i));
+}
+.container1 .card:hover .sci1 li
+{
+     transform: translate(0px);
+     opacity: 1;
+
+}
+.container1 .card .sci1 li a
+{
+     color: #0099FF;
+     font-size: 24px;    
+}   
+#s11{
+            margin-left: 150px;
+            margin-top: 10px;
+        }
+        #s12{
+            margin-left: 350px;
+            margin-top: -24px;
+        }
+         #s13{
+            margin-left: 580px;
+            margin-top: -24px;
+        } 
+ 
+
+
+     </style>
+</head>
+ <header>
+    <div class="main">
+         <div class="run">
+      <div class="logo">
+        <img src="lg.png">
+      </div>
+         <div class="ge">
+       <ul>
+        <li><a style="text-decoration: none"; href="index.html">Home</a></li>
+        <li><a style="text-decoration: none"; href="cuisine.html">Ẩm Thực</a></li>
+        <li><a style="text-decoration: none"; href="tourist.html">Du Lịch</a></li>
+        <li class="active"><a style="text-decoration: none"; href="contact.html">Liên Hệ</a></li>
+       </ul>
+         </div>
+        </div>
+        <div class="title">
+         <h2>Mọi thông tin chi tiết xin liên hệ qua các địa chỉ sau</h2>
+         <h3>Xin Cảm Ơn!</h3>
+      </div> 
+    </div>
+    
+
+
+       <form class="form-inline ml-auto">
+                    <div class="fg">
+                      <div class="kg">
+                        <a class="nav-item dropdown ml-auto">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                <img src="https://pass-1st.co.uk/wp-content/themes/vanilla_5/assets/images/icons/account-icon-white.svg" height="27" width="27" />
+                            </a>
+
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a href="formdangnhap.html" class="dropdown-item">Ðang Nhập</a>
+                                <a href="formdangnhap.html" class="dropdown-item">Tạo Tài Khoản</a>
+                            </div>
+                        </a>
+                      </div>
+                    </form>
+
+   </header>
+
+<section>
+   <div class="container">
+     <div class="containerinfo">
+       <div>
+         <h2>Thông Tin Liên Hệ</h2>
+         <ul class="info">
+           <li>
+             <span><i class="fa fa-phone-square" aria-hidden="true"></i></span>
+             <span>0899866789</span>
+           </li>  
+           <li>
+             <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+             <span>Traveldanang@gmail.com</span>
+           </li>
+           <li>
+             <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+             <span>470 Nam Kì Khởi Nghia,<br />
+               Quận Ngu Hành Son,<br />
+                Ðà Nẵng
+             </span>
+           </li>
+         </ul>
+       </div>
+       <ul class="sci">
+         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+         <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+         <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+         <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+        
+       </ul>
+    </div>
+                   
+  <div class="containerForm">
+    <form action="action_page.php">
+           <h2>Gửi lời nhắn</h2>
+           <div class="formBox">
+               <div class="inputBox w50">
+                   <input type="text" name="" required>
+                   <span>Họ</span>
+               </div>
+               <div class="inputBox w50">
+                   <input type="text" name="" required>
+                   <span>Tên</span>
+               </div>
+               <div class="inputBox w50">
+                   <input type="text" name="" required>
+                   <span>Email</span>
+               </div>
+               <div class="inputBox w50">
+                   <input type="text" name="" required>
+                   <span>Số Điện Thoại</span>
+               </div>
+               <div class="inputBox w100">
+                   <textarea name="" required></textarea>
+                   <span>Lời Nhắn Của Bạn</span>
+               </div>
+               <div class="inputBox w100">
+                   <input type="submit" value="Gửi">
+               </div>
+           </div>
+
+           <div id="s11">
+                     <img src="news.png"><a style="text-decoration: none;" href="dattour.html">&ensp;Đặt Tour</a>
+                  </div>
+                  <div id="s12">
+                     <img src="airport.png"><a style="text-decoration: none;" href="datvebay.html">&ensp;Đặt vé máy bay</a>
+                  </div>
+                  
+                    <div id="s13">
+                    <img src="hotel.png"><a style="text-decoration: none;" href="formdangnhap.html">&ensp;Đặt phòng</a>
+                   </div>
+         </form>
+       </div>
+
+
+
+   </div>
+    
+</section>
+<body>
+  <header>
+    <div class="container1">
+      <div class="card">
+        <div class="content">
+          <div class="imgBx"><img src="people.png"></div>
+          <div class="contentBx">
+            <h3>Lê Van Luong</h3>
+      </div> 
+      <br> 
+      <br>    
+    </div>
+  <ul class="sci1">
+    <li style="--i:1">
+      <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    </li>
+    <li style="--i:2">
+      <a href="tel:+84986866789"><i class="fa fa-phone" aria-hidden="true"></i></a>
+    </li>
+    <li style="--i:3">
+      <a href="#"><i class="fa fa-address-card" aria-hidden="true"></i></a>
+    </li>
+  </ul>
+</div>
+      <div class="card">
+        <div class="content">
+          <div class="imgBx"><img src="people.png"></div>
+          <div class="contentBx">
+            <h3>Ðào Ðức Danh</h3>
+      </div>
+      <br>
+      <br>  
+      </div>    
+  <ul class="sci1">
+    <li style="--i:1">
+      <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    </li>
+    <li style="--i:2">
+      <a href="tel:+84986866789"><i class="fa fa-phone" aria-hidden="true"></i></a>
+    </li>
+    <li style="--i:3">
+      <a href="#"><i class="fa fa-address-card" aria-hidden="true"></i></a>
+    </li>
+  </ul>
+</div>
+</div>
+  </header> 
+  </body> 
+  </html>
+  
